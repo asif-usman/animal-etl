@@ -1,6 +1,5 @@
 from etl.client import AnimalAPIClient
-from etl.transform import transform_animal
-from etl.loader import load_animals_in_batches
+
 
 def main():
     client = AnimalAPIClient()
