@@ -1,5 +1,5 @@
 from etl.client import AnimalAPIClient
-
+from etl.transform import transform_animal
 
 def main():
     client = AnimalAPIClient()
